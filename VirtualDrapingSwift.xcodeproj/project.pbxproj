@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20EA47072428E139001DC470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA47062428E139001DC470 /* AppDelegate.swift */; };
+		20EA470B2428E139001DC470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA470A2428E139001DC470 /* ViewController.swift */; };
+		20EA470E2428E139001DC470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EA470C2428E139001DC470 /* Main.storyboard */; };
+		20EA47102428E13A001DC470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EA470F2428E13A001DC470 /* Assets.xcassets */; };
+		20EA47132428E13A001DC470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EA47112428E13A001DC470 /* LaunchScreen.storyboard */; };
+		20EA471E2428E13A001DC470 /* VirtualDrapingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA471D2428E13A001DC470 /* VirtualDrapingSwiftTests.swift */; };
+		20EA47292428E13A001DC470 /* VirtualDrapingSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA47282428E13A001DC470 /* VirtualDrapingSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20EA471A2428E13A001DC470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20EA46FB2428E139001DC470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EA47022428E139001DC470;
+			remoteInfo = VirtualDrapingSwift;
+		};
+		20EA47252428E13A001DC470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20EA46FB2428E139001DC470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EA47022428E139001DC470;
+			remoteInfo = VirtualDrapingSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20EA47032428E139001DC470 /* VirtualDrapingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualDrapingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EA47062428E139001DC470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20EA470A2428E139001DC470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20EA470D2428E139001DC470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20EA470F2428E13A001DC470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20EA47122428E13A001DC470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20EA47142428E13A001DC470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EA47192428E13A001DC470 /* VirtualDrapingSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualDrapingSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EA471D2428E13A001DC470 /* VirtualDrapingSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualDrapingSwiftTests.swift; sourceTree = "<group>"; };
+		20EA471F2428E13A001DC470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EA47242428E13A001DC470 /* VirtualDrapingSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualDrapingSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EA47282428E13A001DC470 /* VirtualDrapingSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualDrapingSwiftUITests.swift; sourceTree = "<group>"; };
+		20EA472A2428E13A001DC470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20EA47002428E139001DC470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EA47162428E13A001DC470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EA47212428E13A001DC470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EA46FA2428E139001DC470 = {
+			isa = PBXGroup;
+			children = (
+				20EA47052428E139001DC470 /* VirtualDrapingSwift */,
+				20EA471C2428E13A001DC470 /* VirtualDrapingSwiftTests */,
+				20EA47272428E13A001DC470 /* VirtualDrapingSwiftUITests */,
+				20EA47042428E139001DC470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20EA47042428E139001DC470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20EA47032428E139001DC470 /* VirtualDrapingSwift.app */,
+				20EA47192428E13A001DC470 /* VirtualDrapingSwiftTests.xctest */,
+				20EA47242428E13A001DC470 /* VirtualDrapingSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20EA47052428E139001DC470 /* VirtualDrapingSwift */ = {
+			isa = PBXGroup;
+			children = (
+				20EA47062428E139001DC470 /* AppDelegate.swift */,
+				20EA470A2428E139001DC470 /* ViewController.swift */,
+				20EA470C2428E139001DC470 /* Main.storyboard */,
+				20EA470F2428E13A001DC470 /* Assets.xcassets */,
+				20EA47112428E13A001DC470 /* LaunchScreen.storyboard */,
+				20EA47142428E13A001DC470 /* Info.plist */,
+			);
+			path = VirtualDrapingSwift;
+			sourceTree = "<group>";
+		};
+		20EA471C2428E13A001DC470 /* VirtualDrapingSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				20EA471D2428E13A001DC470 /* VirtualDrapingSwiftTests.swift */,
+				20EA471F2428E13A001DC470 /* Info.plist */,
+			);
+			path = VirtualDrapingSwiftTests;
+			sourceTree = "<group>";
+		};
+		20EA47272428E13A001DC470 /* VirtualDrapingSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20EA47282428E13A001DC470 /* VirtualDrapingSwiftUITests.swift */,
+				20EA472A2428E13A001DC470 /* Info.plist */,
+			);
+			path = VirtualDrapingSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20EA47022428E139001DC470 /* VirtualDrapingSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EA472D2428E13A001DC470 /* Build configuration list for PBXNativeTarget "VirtualDrapingSwift" */;
+			buildPhases = (
+				20EA46FF2428E139001DC470 /* Sources */,
+				20EA47002428E139001DC470 /* Frameworks */,
+				20EA47012428E139001DC470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualDrapingSwift;
+			productName = VirtualDrapingSwift;
+			productReference = 20EA47032428E139001DC470 /* VirtualDrapingSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20EA47182428E13A001DC470 /* VirtualDrapingSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EA47302428E13A001DC470 /* Build configuration list for PBXNativeTarget "VirtualDrapingSwiftTests" */;
+			buildPhases = (
+				20EA47152428E13A001DC470 /* Sources */,
+				20EA47162428E13A001DC470 /* Frameworks */,
+				20EA47172428E13A001DC470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20EA471B2428E13A001DC470 /* PBXTargetDependency */,
+			);
+			name = VirtualDrapingSwiftTests;
+			productName = VirtualDrapingSwiftTests;
+			productReference = 20EA47192428E13A001DC470 /* VirtualDrapingSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20EA47232428E13A001DC470 /* VirtualDrapingSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EA47332428E13A001DC470 /* Build configuration list for PBXNativeTarget "VirtualDrapingSwiftUITests" */;
+			buildPhases = (
+				20EA47202428E13A001DC470 /* Sources */,
+				20EA47212428E13A001DC470 /* Frameworks */,
+				20EA47222428E13A001DC470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20EA47262428E13A001DC470 /* PBXTargetDependency */,
+			);
+			name = VirtualDrapingSwiftUITests;
+			productName = VirtualDrapingSwiftUITests;
+			productReference = 20EA47242428E13A001DC470 /* VirtualDrapingSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20EA46FB2428E139001DC470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Sapient;
+				TargetAttributes = {
+					20EA47022428E139001DC470 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					20EA47182428E13A001DC470 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 20EA47022428E139001DC470;
+					};
+					20EA47232428E13A001DC470 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 20EA47022428E139001DC470;
+					};
+				};
+			};
+			buildConfigurationList = 20EA46FE2428E139001DC470 /* Build configuration list for PBXProject "VirtualDrapingSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20EA46FA2428E139001DC470;
+			productRefGroup = 20EA47042428E139001DC470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20EA47022428E139001DC470 /* VirtualDrapingSwift */,
+				20EA47182428E13A001DC470 /* VirtualDrapingSwiftTests */,
+				20EA47232428E13A001DC470 /* VirtualDrapingSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20EA47012428E139001DC470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EA47132428E13A001DC470 /* LaunchScreen.storyboard in Resources */,
+				20EA47102428E13A001DC470 /* Assets.xcassets in Resources */,
+				20EA470E2428E139001DC470 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EA47172428E13A001DC470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EA47222428E13A001DC470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20EA46FF2428E139001DC470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EA470B2428E139001DC470 /* ViewController.swift in Sources */,
+				20EA47072428E139001DC470 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EA47152428E13A001DC470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EA471E2428E13A001DC470 /* VirtualDrapingSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EA47202428E13A001DC470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EA47292428E13A001DC470 /* VirtualDrapingSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20EA471B2428E13A001DC470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20EA47022428E139001DC470 /* VirtualDrapingSwift */;
+			targetProxy = 20EA471A2428E13A001DC470 /* PBXContainerItemProxy */;
+		};
+		20EA47262428E13A001DC470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20EA47022428E139001DC470 /* VirtualDrapingSwift */;
+			targetProxy = 20EA47252428E13A001DC470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20EA470C2428E139001DC470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EA470D2428E139001DC470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20EA47112428E13A001DC470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EA47122428E13A001DC470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20EA472B2428E13A001DC470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20EA472C2428E13A001DC470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20EA472E2428E13A001DC470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTZF646PZZ;
+				INFOPLIST_FILE = VirtualDrapingSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VirtualDrapingSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20EA472F2428E13A001DC470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTZF646PZZ;
+				INFOPLIST_FILE = VirtualDrapingSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VirtualDrapingSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20EA47312428E13A001DC470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDrapingSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VirtualDrapingSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualDrapingSwift.app/VirtualDrapingSwift";
+			};
+			name = Debug;
+		};
+		20EA47322428E13A001DC470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDrapingSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VirtualDrapingSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualDrapingSwift.app/VirtualDrapingSwift";
+			};
+			name = Release;
+		};
+		20EA47342428E13A001DC470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDrapingSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VirtualDrapingSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualDrapingSwift;
+			};
+			name = Debug;
+		};
+		20EA47352428E13A001DC470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualDrapingSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VirtualDrapingSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualDrapingSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20EA46FE2428E139001DC470 /* Build configuration list for PBXProject "VirtualDrapingSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EA472B2428E13A001DC470 /* Debug */,
+				20EA472C2428E13A001DC470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EA472D2428E13A001DC470 /* Build configuration list for PBXNativeTarget "VirtualDrapingSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EA472E2428E13A001DC470 /* Debug */,
+				20EA472F2428E13A001DC470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EA47302428E13A001DC470 /* Build configuration list for PBXNativeTarget "VirtualDrapingSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EA47312428E13A001DC470 /* Debug */,
+				20EA47322428E13A001DC470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EA47332428E13A001DC470 /* Build configuration list for PBXNativeTarget "VirtualDrapingSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EA47342428E13A001DC470 /* Debug */,
+				20EA47352428E13A001DC470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20EA46FB2428E139001DC470 /* Project object */;
+}
